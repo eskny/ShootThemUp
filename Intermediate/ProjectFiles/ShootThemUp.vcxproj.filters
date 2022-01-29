@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ShootThemUp.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A505ADFE-8D5C-418E-9518-9735A5F92E08}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShootThemUp.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ShootThemUpEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.clang-format.txt" />
+    <None Include="..\..\.gitignore.txt" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{2B634A97-B894-49DE-8DA4-0DABC96D76AB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ShootThemUp">
+      <UniqueIdentifier>{0EE56789-6949-4EC7-AFFA-840BED77078E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShootThemUp\ShootThemUp.Build.cs">
+      <Filter>Source\ShootThemUp</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ShootThemUp\ShootThemUp.cpp">
+      <Filter>Source\ShootThemUp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShootThemUp\ShootThemUp.h">
+      <Filter>Source\ShootThemUp</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShootThemUp\Private">
+      <UniqueIdentifier>{318D730C-3B72-441A-BEF1-0DFE69136884}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShootThemUp\Private\STUGameModeBase.cpp">
+      <Filter>Source\ShootThemUp\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShootThemUp\Private\Components">
+      <UniqueIdentifier>{145CCC9F-468F-4B47-A069-1F95954DC1CD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShootThemUp\Private\Components\STUCharacterMovementComponent.cpp">
+      <Filter>Source\ShootThemUp\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShootThemUp\Private\Components\STUHealthComponent.cpp">
+      <Filter>Source\ShootThemUp\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShootThemUp\Private\Player">
+      <UniqueIdentifier>{6CCA1D09-3EB9-4AC2-8770-C101FB3C05BE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShootThemUp\Private\Player\STUBaseCharacter.cpp">
+      <Filter>Source\ShootThemUp\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShootThemUp\Private\Player\STUPlayerController.cpp">
+      <Filter>Source\ShootThemUp\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShootThemUp\Public">
+      <UniqueIdentifier>{CE7B0F26-1098-4D22-902D-A47B45BB0EA0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShootThemUp\Public\STUGameModeBase.h">
+      <Filter>Source\ShootThemUp\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShootThemUp\Public\Components">
+      <UniqueIdentifier>{67D8C77C-03FA-437C-9A00-05AACC409313}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShootThemUp\Public\Components\STUCharacterMovementComponent.h">
+      <Filter>Source\ShootThemUp\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShootThemUp\Public\Components\STUHealthComponent.h">
+      <Filter>Source\ShootThemUp\Public\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShootThemUp\Public\Player">
+      <UniqueIdentifier>{4078F5CD-001F-4510-80E9-7769A0D70F15}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShootThemUp\Public\Player\STUBaseCharacter.h">
+      <Filter>Source\ShootThemUp\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShootThemUp\Public\Player\STUPlayerController.h">
+      <Filter>Source\ShootThemUp\Public\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
